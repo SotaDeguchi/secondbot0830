@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIチャットボット</title>
+    <style>
+        /* ページ全体のスタイル */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* コンテンツのコンテナ */
+        .container {
+            width: 100%;
+            max-width: 900px; /* 横幅の最大値を設定 */
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px
+ 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            box-sizing: border-box; /* paddingを含めて幅を計算 */
+        }
+
+        h1 {
+            color: #005a9e;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* iFrame（チャットボット）のスタイル */
+        .chat-iframe {
+            width: 100%;
+            min-height: 500px;
+            border: none; /* iframeの枠線を消す */
+            border-radius: 8px; /* 角を少し丸める */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ようこそ！AIチャットボットへ</h1>
+        <p>下のチャットウィンドウから、お気軽に話しかけてみてください。</p>
+
+        <!--
+        Azure Portalからコピーしたあなたのボットの埋め込みコードです。
+        -->
+        <iframe src='https://webchat.botframework.com/embed/secondbot0830-bot?s=4u24SxzqejmfKJtjyH3DY03YLpVWrdvdj9SglpqPpurYnIkqaG8dJQQJ99BHAC3pKaRAArohAAABAZBSgtXh.42xh5roGDvA0Auv4zosZYSvQgSLXEXug89NkxvXCKJ1e0aIyTdszJQQJ99BHAC3pKaRAArohAAABAZBS1Fbe' class="chat-iframe"></iframe>
+
+    </div>
+
+</body>
+</html>
+
